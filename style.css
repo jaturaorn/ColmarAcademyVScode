@@ -86,3 +86,29 @@ ul a {
 .left-mid {
     width: 60%;
   }
+
+.left-mid img {
+    width: 100%;
+  }
+
+.left-mid > div:nth-child(1) {
+    margin-top: 16px;
+  }
+  ​
+.left-mid > div:nth-child(2) h2 {
+    margin-top: 32px;
+  }
+  ​
+.left-mid > div:nth-child(2) p {
+    margin-top: 24px;
+  }
+
+.right-mid {
+    width: 40%;
+  }
+
+.right-mid-item {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+  }
