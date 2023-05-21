@@ -76,3 +76,13 @@ ul a {
     padding: 8px 0;
     border: 0;
   }
+
+.mid {
+    display: flex;
+    gap: 24px;
+    padding: 16px 24px 32px;
+  }
+
+.left-mid {
+    width: 60%;
+  }
