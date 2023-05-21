@@ -34,16 +34,16 @@
     gap: 1rem;
   }
 
-  ul li {
+ul li {
     list-style: none;
   }
 
-  ul a {
+ul a {
     text-decoration: none;
     color: black;
   }
 
-  .top {
+.top {
     display: flex;
     background-color: rgb(216, 216, 216);
     padding: 2rem 1.5rem;
@@ -54,3 +54,25 @@
     gap: 1.5rem;
   }
 
+.left-top {
+    width: 60%;
+  }
+
+.left-top img {
+    width: 100%;
+  }
+
+.top-text-box {
+    width: 40%;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.btn {
+    background-color: rgb(75, 74, 75);
+    color: white;
+    padding: 8px 0;
+    border: 0;
+  }
