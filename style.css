@@ -128,3 +128,34 @@ ul a {
     max-width: 65%;
   }
 
+.bottom {
+    background-color: rgb(216, 216, 216);
+    padding: 2rem;
+  }
+
+.bottom h2 {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+.bottom-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .bottom-item {
+    background-color: white;
+    width: 29%;
+  }
+
+  .bottom-item img {
+    width: 100%;
+  }
+
+  .bottom-item > div:nth-child(2) {
+    padding: 16px 16px 24px 16px;
+  }
+
+
