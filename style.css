@@ -162,3 +162,28 @@ ul a {
   text-align: center;
   margin-bottom: 32px;
 }
+
+.leftbottomF {
+  width: 60%;
+}
+
+/* .leftbottomF video {
+  width: 100%;
+} */
+
+.leftbottomF > div:nth-child(1) {
+  margin-top: 16px;
+}
+​
+.leftbottomF > div:nth-child(2) h2 {
+  margin-top: 32px;
+}
+​
+.leftbottomF > div:nth-child(2) p {
+  margin-top: 24px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
